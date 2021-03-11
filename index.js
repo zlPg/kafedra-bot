@@ -4,7 +4,7 @@ const bot = new TelegramBot("1622938240:AAHPfGebzQmbRkj6skdrmaf4h-_FH1wAzwI")
 
 
 //  Приветсиве при запуске
-const startText = "Здарова, ёпта!"
+const startText = "Привіт"
 
 // Основное меню и ответы
 
@@ -15,15 +15,11 @@ const startText = "Здарова, ёпта!"
 //
 
 const menus = {
-    "abc1": "<b>abd</b>",
-    "dsa2": "<i>daw</i>",
-    "abc3": "<b>abd</b>",
-    "dsa4": "<i>daw</i>",
     "abc5": "<b>abd</b>",
     "dsa6": "<i>daw</i>",
     "abc7": "<b>abd</b>",
     "dsa8": "<i>daw</i>",
-    "abc9": "",
+    "Працевлаштування": "",
 }
 
 // Перевод меню в кнопки для Telegram
@@ -74,9 +70,9 @@ bot.on('message', async (msg) => {
     }
     // Остальные случаи
 
-    if(text == "abc9") {
-        await bot.sendPhoto(userId, "C:/Users/User/Desktop/kafedra303_bot.jpg", {
-            caption: "Аникин, хуй соси"
+    if(text == "Працевлаштування") {
+        await bot.sendPhoto(userId, "C:/Users/User/Desktop/kafedra303_bot(1).jpg", {
+            caption: "Текст"
         })
     }
 }) 
