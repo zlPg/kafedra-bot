@@ -71,7 +71,7 @@ bot.on('message', async (msg) => {
     // Остальные случаи
 
     if(text == "Працевлаштування") {
-        await bot.sendPhoto(userId, "C:/Users/User/Desktop/kafedra303_bot.jpg")
+        await bot.sendPhoto(userId, "./kafedra303_bot.jpg")
      }
 }) 
 
