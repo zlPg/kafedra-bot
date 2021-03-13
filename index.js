@@ -17,7 +17,7 @@ const startText = "Привіт"
 const menus = {
     "Кафедра": "<b>abd</b>",
     "Спеціальності": "<i>daw</i>",
-    "Контакти": "<i>daw</i>",
+    "Контакти": "",
     "Працевлаштування": "",
     "Студентське життя": "<b>abd</b>",
 }
@@ -75,7 +75,9 @@ bot.on('message', async (msg) => {
      }
     
      if(text == "Контакти") {
-        await bot.sendPhoto(userId, "./kafedra3033_bot.jpg")
+        await bot.sendPhoto(userId, "./kafedra3033_bot.jpg", {
+            caption: ""
+        })
     }
 }) 
 
