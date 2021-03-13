@@ -76,7 +76,7 @@ bot.on('message', async (msg) => {
     
      if(text == "Контакти") {
         await bot.sendPhoto(userId, "./kafedra3033_bot.jpg", {
-            caption: ""text: https://k303.khai.edu/#footer""
+            caption: "text: https://k303.khai.edu/#footer"
         })
     }
 }) 
