@@ -4,7 +4,7 @@ const bot = new TelegramBot("1622938240:AAHtxjPqCko-ezoAUD7h4mhMqPDyu5SHh98")
 
 
 //  Приветсиве при запуске
-const startText = "Тебе вітає  ✈️  НАУ ім. Н.Є. Жуковського ''ХАІ'' "
+const startText = "Тебе вітає  ✈️  НАУ ім. Н.Є. Жуковського ''ХАІ'' \n\nА саме: факультет систем управління літальних апаратів \n\nКафедра інтелектуальних вимірювальних систем та інженерії якості"
 
 // Основное меню и ответы
 
@@ -73,11 +73,11 @@ bot.on('message', async (msg) => {
 
     if(text == "Працевлаштування") {
         await bot.sendPhoto(userId, "./kafedra303_bot.jpg")
-     }
-    
-     if(text == "Контакти") {
+    }
+
+    if(text == "Контакти") {
         await bot.sendPhoto(userId, "./kafedra3033_bot.jpg", {
-            caption: "text: https://k303.khai.edu/#footer"
+            caption: "Адреса 〰️ вул. Чкалова, \17, м. Харків, \61070, Україна, радіокорпус ХАІ, ауд.\322 \n\nТелефон 〰️ \+38 (057) 788-43-03788-47-12 \n\nПошта 〰️ kafedraapi@rambler.ru \nkafedraapi@ukr.net  \n\nInstagram 〰️ @sula.khai \n\nFacebook 〰️ https://www.facebook.com/Kafedra303/?epa=SEARCH_BOX"
         })
     }
 }) 
