@@ -77,7 +77,7 @@ bot.on('message', async (msg) => {
 
     if(text == "Контакти") {
         await bot.sendPhoto(userId, "./kafedra3033_bot.jpg", {
-            caption: "\nАдреса  〰️  вул. Чкалова, \17, м. Харків, \61070, Україна, радіокорпус ХАІ, \ауд.322 \n\nТелефон  〰️  \+38 (057) 788-43-03,\+38 (057) 788-47-12 \n\nПошта  〰️  kafedraapi@rambler.ru, kafedraapi@ukr.net  \n\nInstagram  〰️  https://www.instagram.com/sula.khai/?hl=ru \n\nFacebook  〰️  https://www.facebook.com/Kafedra303/?epa=SEARCH_BOX"
+            caption: "\nАдреса  〰️  вул. Чкалова, 17, м. Харків, 61070, Україна, радіокорпус ХАІ, ауд.322 \n\nТелефон  〰️  \+38 (057) 788-43-03, \+38 (057) 788-47-12 \n\nПошта  〰️  kafedraapi@rambler.ru, kafedraapi@ukr.net  \n\nInstagram  〰️  https://www.instagram.com/sula.khai/?hl=ru \n\nFacebook  〰️  https://www.facebook.com/Kafedra303/?epa=SEARCH_BOX"
         })
     }
 }) 
