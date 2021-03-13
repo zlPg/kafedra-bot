@@ -4,7 +4,7 @@ const bot = new TelegramBot("1622938240:AAHtxjPqCko-ezoAUD7h4mhMqPDyu5SHh98")
 
 
 //  Приветсиве при запуске
-const startText = "Привіт"
+const startText = "<р><b>тетатпоивриивов<b/><br/>овтапомкокикоикии<p/>"
 
 // Основное меню и ответы
 
@@ -16,7 +16,7 @@ const startText = "Привіт"
 
 const menus = {
     "Кафедра": "<b>abd</b>",
-    "Спеціальності": "<i>daw</i> </br> <р>teehevhj<p/>",
+    "Спеціальності": "<i>daw</i><р>teehevhj<p/>",
     "Контакти": "",
     "Працевлаштування": "",
     "Студентське життя": "<b>abd</b>",
