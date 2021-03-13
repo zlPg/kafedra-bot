@@ -4,7 +4,7 @@ const bot = new TelegramBot("1622938240:AAHtxjPqCko-ezoAUD7h4mhMqPDyu5SHh98")
 
 
 //  Приветсиве при запуске
-const startText = "привет"
+const startText = "Тебе вітає ✈️ НАУ ім. Н.Є. Жуковського ''ХАІ'' "
 
 // Основное меню и ответы
 
