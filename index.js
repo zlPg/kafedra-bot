@@ -73,6 +73,10 @@ bot.on('message', async (msg) => {
     if(text == "Працевлаштування") {
         await bot.sendPhoto(userId, "./kafedra303_bot.jpg")
      }
+    
+     if(text == "Контакти") {
+        await bot.sendPhoto(userId, "./kafedra3033_bot.jpg")
+    }
 }) 
 
 
