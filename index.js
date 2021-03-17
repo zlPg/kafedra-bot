@@ -1,6 +1,6 @@
 const TelegramBot = require("node-telegram-bot-api");
 
-const bot = new TelegramBot("1622938240:AAHtxjPqCko-ezoAUD7h4mhMqPDyu5SHh98")
+const bot = new TelegramBot("1622938240:AAGnOQzUo8XZO7i6Xtp2lLMQVKSbWSFwL6w")
 
 
 //  Приветсиве при запуске
